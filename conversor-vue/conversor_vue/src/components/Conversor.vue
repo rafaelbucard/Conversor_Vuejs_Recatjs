@@ -1,21 +1,21 @@
 <template>
-  <div id="app">
-    <Conversor moeda-a="USD" moeda-b="BRL"/>
-    </div>  
+  <div class="conversor">
+      <h2>{{moedaA}} para {{moedaB}} </h2>
+      
+ </div>  
 </template>
 
 <script>
-import Conversor from "./components/Conversor.vue";
+
 export default {
-  name: 'App',
-  components: {
-    Conversor
-   }
- };
+  name: 'Conversor',
+  props: ["moedaA","moedaB"],
+
+};
 </script>
 
-<style>
-#app {
+<style scoped>
+.conversor {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
