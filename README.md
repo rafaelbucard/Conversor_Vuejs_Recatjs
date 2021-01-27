@@ -3,9 +3,9 @@
 
 Link do Site React: http://conversor.rafaelbucard.com/
 
-Criação de um sites utilizando ferramentas reativas populares do java script (REACTJS e VUEJS).  
+Criação de dois sites utilizando ferramentas reativas populares do javascript (REACTJS e VUEJS).  
 
-Documentação da API:  https://www.currencyconverterapi.com/docsj
+Documentação da API consumida:  https://www.currencyconverterapi.com/docsj
 
  **(O Objetivo do Projeto é demonstrar habilidades com React, Vue.js e o consumo de APIs)**
 ## Ferramentas:
